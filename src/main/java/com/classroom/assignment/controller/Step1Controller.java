@@ -11,7 +11,7 @@ public class Step1Controller {
 
   @GetMapping
   public String index(Model model) {
-    model.addAttribute("title", "hello world");
+    model.addAttribute("title", "hello world!!");
     return "step1/index";
   }
 }
